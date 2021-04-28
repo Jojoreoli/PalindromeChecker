@@ -1,0 +1,59 @@
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5em auto 1em;
+  width: 300px;
+  border: 5px solid black;
+  font-family: 'Roboto Slab', serif;
+}
+
+.principal__titulo {
+  padding: 1em 0;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.principal__input {
+  margin: 1em 0;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.principal__botao {
+  margin: 1em 0;
+  font-size: 1.2em;
+  color: white;
+  background: black;
+  border: none;
+  padding: .5em 2em;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em auto;
+  width: 300px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.lista__item--certo {
+  border: 3px solid black;
+  margin: 1em 0;
+  padding: .5em 1em;
+  color: black;
+  background: lightgreen;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.lista__item--errado {
+  border: 3px solid black;
+  margin: 1em 0;
+  padding: .5em 1em;
+  color: white;
+  background: red;
+  font-size: 1.3em;
+  font-weight: 700;
+}
